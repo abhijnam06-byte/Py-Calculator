@@ -39,7 +39,7 @@ e.bind("<Key>", lambda e: "break")
 def view(val):
     tk.Label(ui, borderwidth=3, relief="sunken", text=str(val), width=34, bg="#f5d0d0", fg="#000000").grid(row=2, column=0, columnspan=5, pady=5)
 
-view("Calculations here")
+view("Calculations ")
 
 global flag
 flag = 0
